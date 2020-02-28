@@ -1,5 +1,5 @@
 class CfgPatches {
-	class Slovak-Insignias-Pack {
+	class SlovakInsigniaPack {
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {};
