@@ -1,5 +1,5 @@
 class CfgPatches {
-	class SlovakInsignias {
+	class Slovak-Insignias-Pack {
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {};
@@ -10,10 +10,25 @@ class CfgPatches {
 };
 
 class CfgUnitInsignia {
-	class Flag_insignia {
+	class FlagInsignia {
 		display_name = "Slovak Flag Insignia";
-		author = "Slovakia";
+		author = "Slovak Insignia Pack";
 		texture = "\SlovakInsignias\insignias\flag.paa";
 		textureVehicle = "";
 	};
+
+	class ArmyInsignia {
+		display_name = "Army of the Slovak Republic"
+		author = "Slovak Insignia Pack";
+		texture = "\SlovakInsignias\insignias\army.paa"
+		textureVehicle = "";
+	};
+
+	class GeneralStaffInsignia {
+		display_name = "General Staff of the Slovak Republic"
+		author = "Slovak Insignia Pack"
+		texture = "\SlovakInsignias\insignias\general_staff.paa"
+		textureVehicle = "";
+	};
+
 };
